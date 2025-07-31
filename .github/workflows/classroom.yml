@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Grading1
         setup-command: ''
-        command: print
+        command: python 3 24U030079 lab 1 for submission.py
         input: '95'
         expected-output: A
         comparison-method: contains
@@ -30,7 +30,7 @@ jobs:
       with:
         test-name: Grading2
         setup-command: ''
-        command: if
+        command: 24U030079 lab 1 for submission.py
         input: '58'
         expected-output: D
         comparison-method: contains
@@ -41,7 +41,7 @@ jobs:
       with:
         test-name: Grading3
         setup-command: ''
-        command: while
+        command: 24U030079 lab 1 for submission.py
         input: '39'
         expected-output: F
         comparison-method: contains
